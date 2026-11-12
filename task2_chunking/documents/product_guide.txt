@@ -1,0 +1,8 @@
+Product Guide
+
+Our software provides document search functionality.
+Users can upload PDF, DOCX, and TXT files.
+The system converts documents into text before processing.
+Text is divided into smaller chunks.
+Embeddings represent the meaning of each chunk.
+Semantic search retrieves relevant information based on meaning.

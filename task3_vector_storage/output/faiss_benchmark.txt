@@ -1,0 +1,8 @@
+Vectors: 50000
+Dimensions: 384
+Queries: 100
+Exact build time: 0.1160s
+Exact search time: 0.8906s
+HNSW build time: 54.6897s
+
+efSearch=512, time=0.3952s, recall=92.00%

@@ -1,0 +1,30 @@
+[
+    {
+        "chunk_size": 128,
+        "total_chunks": 177,
+        "hit_at_1": 100.0,
+        "hit_at_3": 100.0,
+        "hit_at_5": 100.0
+    },
+    {
+        "chunk_size": 256,
+        "total_chunks": 69,
+        "hit_at_1": 100.0,
+        "hit_at_3": 100.0,
+        "hit_at_5": 100.0
+    },
+    {
+        "chunk_size": 512,
+        "total_chunks": 32,
+        "hit_at_1": 100.0,
+        "hit_at_3": 100.0,
+        "hit_at_5": 100.0
+    },
+    {
+        "chunk_size": 1024,
+        "total_chunks": 20,
+        "hit_at_1": 100.0,
+        "hit_at_3": 100.0,
+        "hit_at_5": 100.0
+    }
+]

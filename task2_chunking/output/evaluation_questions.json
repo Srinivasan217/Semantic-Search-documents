@@ -1,0 +1,42 @@
+[
+    {
+        "question": "How often must employees reset their passwords?",
+        "expected_page": 1
+    },
+    {
+        "question": "How many paid leave days do employees receive annually?",
+        "expected_page": 2
+    },
+    {
+        "question": "What are the normal office working hours?",
+        "expected_page": 3
+    },
+    {
+        "question": "Which file formats can users upload?",
+        "expected_page": 4
+    },
+    {
+        "question": "Why does the system divide documents into smaller sections?",
+        "expected_page": 5
+    },
+    {
+        "question": "How many dimensions does all-MiniLM-L6-v2 generate?",
+        "expected_page": 6
+    },
+    {
+        "question": "How does semantic search find relevant information?",
+        "expected_page": 7
+    },
+    {
+        "question": "What information is stored in a vector database record?",
+        "expected_page": 8
+    },
+    {
+        "question": "Which API endpoint performs document searching?",
+        "expected_page": 9
+    },
+    {
+        "question": "Where should API keys and secret credentials be stored?",
+        "expected_page": 10
+    }
+]

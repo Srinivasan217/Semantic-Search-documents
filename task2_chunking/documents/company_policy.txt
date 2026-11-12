@@ -1,0 +1,5 @@
+Employees must reset their passwords every 90 days.
+Passwords must contain at least 12 characters.
+Employees should never share their login credentials.
+The IT department provides support for password-related issues.
+All employees must enable multi-factor authentication.

@@ -1,0 +1,78 @@
+
+[
+  {
+    "question": "How often must employees reset their passwords?",
+    "expected_source": "company_policy.txt",
+    "expected_page": 1
+  },
+  {
+    "question": "How many paid leave days do employees receive annually?",
+    "expected_source": "employee_handbook.txt",
+    "expected_page": 1
+  },
+  {
+    "question": "What are the normal office working hours?",
+    "expected_source": "employee_handbook.txt",
+    "expected_page": 1
+  },
+  {
+    "question": "Which file formats can users upload?",
+    "expected_source": "product_guide.txt",
+    "expected_page": 1
+  },
+  {
+    "question": "Why does the system divide documents into smaller sections?",
+    "expected_source": "technical_document.pdf",
+    "expected_page": 1
+  },
+  {
+    "question": "How many dimensions does all-MiniLM-L6-v2 generate?",
+    "expected_source": "experiment_corpus.pdf",
+    "expected_page": 6
+  },
+  {
+    "question": "How does semantic search find relevant information?",
+    "expected_source": "experiment_corpus.pdf",
+    "expected_page": 7
+  },
+  {
+    "question": "What information is stored in a vector database record?",
+    "expected_source": "experiment_corpus.pdf",
+    "expected_page": 8
+  },
+  {
+    "question": "Which API endpoint performs document searching?",
+    "expected_source": "experiment_corpus.pdf",
+    "expected_page": 9
+  },
+  {
+    "question": "Where should API keys and secret credentials be stored?",
+    "expected_source": "experiment_corpus.pdf",
+    "expected_page": 10
+  },
+  {
+    "question": "What is the minimum password length required for employees?",
+    "expected_source": "company_policy.txt",
+    "expected_page": 1
+  },
+  {
+    "question": "Does the product support PDF, DOCX, and TXT uploads?",
+    "expected_source": "product_guide.txt",
+    "expected_page": 1
+  },
+  {
+    "question": "Why are overlapping chunks useful when processing documents?",
+    "expected_source": "technical_document.pdf",
+    "expected_page": 1
+  },
+  {
+    "question": "What does cosine similarity measure between embeddings?",
+    "expected_source": "experiment_corpus.pdf",
+    "expected_page": 6
+  },
+  {
+    "question": "How does the application protect secret credentials from Git?",
+    "expected_source": "experiment_corpus.pdf",
+    "expected_page": 10
+  }
+]

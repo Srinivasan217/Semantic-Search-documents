@@ -1,0 +1,330 @@
+{
+    "total_questions": 15,
+    "top_k": 5,
+    "configurations": [
+        {
+            "configuration": "Baseline Search",
+            "metrics": {
+                "Hit@1": 0.7333,
+                "Hit@3": 0.7333,
+                "Hit@5": 1.0,
+                "MRR": 0.7933,
+                "average_search_time_seconds": 0.0043
+            },
+            "details": [
+                {
+                    "question": "How often must employees reset their passwords?",
+                    "expected_source": "company_policy.txt",
+                    "expected_page": 1,
+                    "matching_ranks": [
+                        1,
+                        2
+                    ],
+                    "search_time_seconds": 0.046178
+                },
+                {
+                    "question": "How many paid leave days do employees receive annually?",
+                    "expected_source": "employee_handbook.txt",
+                    "expected_page": 1,
+                    "matching_ranks": [
+                        1
+                    ],
+                    "search_time_seconds": 0.002076
+                },
+                {
+                    "question": "What are the normal office working hours?",
+                    "expected_source": "employee_handbook.txt",
+                    "expected_page": 1,
+                    "matching_ranks": [
+                        1
+                    ],
+                    "search_time_seconds": 0.00153
+                },
+                {
+                    "question": "Which file formats can users upload?",
+                    "expected_source": "product_guide.txt",
+                    "expected_page": 1,
+                    "matching_ranks": [
+                        5
+                    ],
+                    "search_time_seconds": 0.001098
+                },
+                {
+                    "question": "Why does the system divide documents into smaller sections?",
+                    "expected_source": "technical_document.pdf",
+                    "expected_page": 1,
+                    "matching_ranks": [
+                        4
+                    ],
+                    "search_time_seconds": 0.001095
+                },
+                {
+                    "question": "How many dimensions does all-MiniLM-L6-v2 generate?",
+                    "expected_source": "experiment_corpus.pdf",
+                    "expected_page": 6,
+                    "matching_ranks": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "search_time_seconds": 0.001041
+                },
+                {
+                    "question": "How does semantic search find relevant information?",
+                    "expected_source": "experiment_corpus.pdf",
+                    "expected_page": 7,
+                    "matching_ranks": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "search_time_seconds": 0.00111
+                },
+                {
+                    "question": "What information is stored in a vector database record?",
+                    "expected_source": "experiment_corpus.pdf",
+                    "expected_page": 8,
+                    "matching_ranks": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "search_time_seconds": 0.001122
+                },
+                {
+                    "question": "Which API endpoint performs document searching?",
+                    "expected_source": "experiment_corpus.pdf",
+                    "expected_page": 9,
+                    "matching_ranks": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "search_time_seconds": 0.001071
+                },
+                {
+                    "question": "Where should API keys and secret credentials be stored?",
+                    "expected_source": "experiment_corpus.pdf",
+                    "expected_page": 10,
+                    "matching_ranks": [
+                        1,
+                        2
+                    ],
+                    "search_time_seconds": 0.001019
+                },
+                {
+                    "question": "What is the minimum password length required for employees?",
+                    "expected_source": "company_policy.txt",
+                    "expected_page": 1,
+                    "matching_ranks": [
+                        1,
+                        2
+                    ],
+                    "search_time_seconds": 0.001721
+                },
+                {
+                    "question": "Does the product support PDF, DOCX, and TXT uploads?",
+                    "expected_source": "product_guide.txt",
+                    "expected_page": 1,
+                    "matching_ranks": [
+                        4
+                    ],
+                    "search_time_seconds": 0.001052
+                },
+                {
+                    "question": "Why are overlapping chunks useful when processing documents?",
+                    "expected_source": "technical_document.pdf",
+                    "expected_page": 1,
+                    "matching_ranks": [
+                        5
+                    ],
+                    "search_time_seconds": 0.001053
+                },
+                {
+                    "question": "What does cosine similarity measure between embeddings?",
+                    "expected_source": "experiment_corpus.pdf",
+                    "expected_page": 6,
+                    "matching_ranks": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "search_time_seconds": 0.001831
+                },
+                {
+                    "question": "How does the application protect secret credentials from Git?",
+                    "expected_source": "experiment_corpus.pdf",
+                    "expected_page": 10,
+                    "matching_ranks": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "search_time_seconds": 0.001475
+                }
+            ]
+        },
+        {
+            "configuration": "Filtered Search",
+            "metrics": {
+                "Hit@1": 0.8667,
+                "Hit@3": 0.8667,
+                "Hit@5": 1.0,
+                "MRR": 0.9,
+                "average_search_time_seconds": 0.0034
+            },
+            "details": [
+                {
+                    "question": "How often must employees reset their passwords?",
+                    "expected_source": "company_policy.txt",
+                    "expected_page": 1,
+                    "matching_ranks": [
+                        1,
+                        2
+                    ],
+                    "search_time_seconds": 0.003102
+                },
+                {
+                    "question": "How many paid leave days do employees receive annually?",
+                    "expected_source": "employee_handbook.txt",
+                    "expected_page": 1,
+                    "matching_ranks": [
+                        1
+                    ],
+                    "search_time_seconds": 0.002594
+                },
+                {
+                    "question": "What are the normal office working hours?",
+                    "expected_source": "employee_handbook.txt",
+                    "expected_page": 1,
+                    "matching_ranks": [
+                        1
+                    ],
+                    "search_time_seconds": 0.00264
+                },
+                {
+                    "question": "Which file formats can users upload?",
+                    "expected_source": "product_guide.txt",
+                    "expected_page": 1,
+                    "matching_ranks": [
+                        1
+                    ],
+                    "search_time_seconds": 0.003078
+                },
+                {
+                    "question": "Why does the system divide documents into smaller sections?",
+                    "expected_source": "technical_document.pdf",
+                    "expected_page": 1,
+                    "matching_ranks": [
+                        4
+                    ],
+                    "search_time_seconds": 0.002709
+                },
+                {
+                    "question": "How many dimensions does all-MiniLM-L6-v2 generate?",
+                    "expected_source": "experiment_corpus.pdf",
+                    "expected_page": 6,
+                    "matching_ranks": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "search_time_seconds": 0.002287
+                },
+                {
+                    "question": "How does semantic search find relevant information?",
+                    "expected_source": "experiment_corpus.pdf",
+                    "expected_page": 7,
+                    "matching_ranks": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "search_time_seconds": 0.002457
+                },
+                {
+                    "question": "What information is stored in a vector database record?",
+                    "expected_source": "experiment_corpus.pdf",
+                    "expected_page": 8,
+                    "matching_ranks": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "search_time_seconds": 0.002069
+                },
+                {
+                    "question": "Which API endpoint performs document searching?",
+                    "expected_source": "experiment_corpus.pdf",
+                    "expected_page": 9,
+                    "matching_ranks": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "search_time_seconds": 0.002479
+                },
+                {
+                    "question": "Where should API keys and secret credentials be stored?",
+                    "expected_source": "experiment_corpus.pdf",
+                    "expected_page": 10,
+                    "matching_ranks": [
+                        1,
+                        2
+                    ],
+                    "search_time_seconds": 0.007829
+                },
+                {
+                    "question": "What is the minimum password length required for employees?",
+                    "expected_source": "company_policy.txt",
+                    "expected_page": 1,
+                    "matching_ranks": [
+                        1,
+                        2
+                    ],
+                    "search_time_seconds": 0.003543
+                },
+                {
+                    "question": "Does the product support PDF, DOCX, and TXT uploads?",
+                    "expected_source": "product_guide.txt",
+                    "expected_page": 1,
+                    "matching_ranks": [
+                        1
+                    ],
+                    "search_time_seconds": 0.005015
+                },
+                {
+                    "question": "Why are overlapping chunks useful when processing documents?",
+                    "expected_source": "technical_document.pdf",
+                    "expected_page": 1,
+                    "matching_ranks": [
+                        4
+                    ],
+                    "search_time_seconds": 0.006366
+                },
+                {
+                    "question": "What does cosine similarity measure between embeddings?",
+                    "expected_source": "experiment_corpus.pdf",
+                    "expected_page": 6,
+                    "matching_ranks": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "search_time_seconds": 0.00288
+                },
+                {
+                    "question": "How does the application protect secret credentials from Git?",
+                    "expected_source": "experiment_corpus.pdf",
+                    "expected_page": 10,
+                    "matching_ranks": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "search_time_seconds": 0.002217
+                }
+            ]
+        }
+    ]
+}

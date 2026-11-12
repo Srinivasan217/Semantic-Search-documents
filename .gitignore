@@ -1,0 +1,10 @@
+venv/
+.env
+__pycache__/
+*.pyc
+*.npy
+
+
+task3_vector_storage/output/qdrant_db/
+*.sqlite
+*.lock
